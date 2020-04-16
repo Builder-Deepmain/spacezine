@@ -1,2 +1,0 @@
-# spacezine
-a space magezine.
