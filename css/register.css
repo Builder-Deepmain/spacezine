@@ -1,0 +1,159 @@
+.w {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+
+/*header*/
+
+.header {
+    height: 82px;
+    border-bottom: 2px solid #B1191A;
+}
+
+.logo {
+    padding-top: 15px;
+}
+
+
+/*registerarea*/
+
+.registerarea {
+    height: 520px;
+    border: 1px solid #ccc;
+    margin-top: 20px;
+}
+
+.registerarea h3 {
+    height: 40px;
+    border: 1px solid #ccc;
+    padding: 0 10px;
+    background-color: #ececec;
+    line-height: 40px;
+    font-size: 18px;
+    font-weight: normal;
+}
+
+.registerarea h3 em {
+    float: right;
+    font-size: 14px;
+}
+
+.registerarea a {
+    color: #c81623;
+}
+
+.reg_form {
+    width: 600px;
+    height: 420px;
+    /*background-color: pink;*/
+    margin: 40px auto 0;
+}
+
+.reg_form label {
+    display: inline-block;
+    width: 100px;
+    height: 36px;
+    font-size: 14px;
+    line-height: 36px;
+    text-align: right;
+}
+
+.reg_form li {
+    margin-top: 15px;
+}
+
+.inp {
+    width: 238px;
+    height: 34px;
+    border: 1px solid #ccc;
+    margin-left: 15px;
+}
+
+.error {
+    color: #df3033;
+}
+
+.error_ico {
+    display: inline-block;
+    width: 22px;
+    height: 22px;
+    margin-left: 10px;
+    background: url(../img/error.png) no-repeat;
+    vertical-align: middle;
+}
+
+.success {
+    color: #40b83f;
+}
+
+.success_ico {
+    display: inline-block;
+    width: 22px;
+    height: 22px;
+    margin-left: 10px;
+    background: url(../img/success.png) no-repeat;
+    vertical-align: middle;
+}
+
+.safe {
+    padding-left: 191px;
+    color: #fff;
+}
+
+.safe em {
+    padding: 0 12px;
+}
+
+.ruo {
+    background-color: #de1111;
+}
+
+.zhong {
+    background-color: #40b83f;
+}
+
+.qiang {
+    background-color: #f79100;
+}
+
+.agree input {
+    vertical-align: middle;
+    margin-right: 5px;
+}
+
+.agree {
+    padding-left: 120px;
+    padding-top: 20px;
+}
+
+.agree a {
+    color: #8d46ee;
+}
+
+.over {
+    width: 200px;
+    height: 34px;
+    background-color: #c81623;
+    border: 0;
+    margin: 30px 0 0 130px;
+    color: #fff;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+
+/*footer*/
+
+.footer {
+    text-align: center;
+}
+
+.footer_links {
+    margin-top: 20px;
+    height: 30px;
+}
+
+.footer_info {
+    line-height: 20px;
+}
