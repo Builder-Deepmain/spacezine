@@ -1,0 +1,92 @@
+/* info_img部分-start */
+.info_img {
+    height: 720px;
+    width: 100%;
+    background: url(../upload/starlink_mission_06.png) no-repeat;
+    background-size: 100% 720px;
+}
+/* info_img部分-end */
+/* info_img_title部分-start */
+.info_img_title {
+    height: 100px;
+    background-color: rgba(0, 0, 0, .7);
+    margin-top: -100px;
+    padding-left: 50px;
+    font-size: 30px;
+    font-weight: 700;
+    color: #fff;
+    line-height: 100px;
+}
+/* info_img_title部分-end */
+/* info_font部分-start */
+.box_shadow {
+    height: 90px;
+    background-color: #E7E7E7;
+    font-size: 18px;
+    color: #0f0e0e;
+    font-weight: 700;
+    line-height: 135px;
+    text-align: center;
+}
+.info_font {
+    height: 60px;
+}
+/* info_font部分-end */
+/* info_recommend信息推荐部分-start */
+.info_recommend {
+    padding-left: 180px;
+}
+.info_recommend ul li {
+    float: left;
+    width: 256px;
+    height: 258px;
+    padding: 24px;
+    margin: 0 15px 24px;
+    box-shadow: 0 2px 5px 0 rgba(0,0,0,0.2);
+}
+.info_recommend li h2 {
+    margin-top: 20px;
+    font-size: 18px;
+    color: #3a3a3a;
+}
+.info_recommend li p {
+    margin-top: 30px;
+    font-size: 12px;
+    color: #3569a4;
+}
+/* info_recommend信息推荐部分-end */
+/* footer部分-start */
+.footer {
+    height: 50px;
+    background-color: #0f0e0e;
+    border: 1px solid transparent;
+    margin-top: 30px;
+    padding-left: 204px;
+    line-height: 50px;
+}
+.footer_left ul li {
+    float: left;
+}
+.footer_left li:nth-child(1) {
+    width: 100px;
+    height: 12px;
+    background: url(../img/logo_min.png) no-repeat;
+    margin-top: 20px;
+}
+.footer_left li:nth-child(2) a,
+.footer_left li:nth-child(3) a {
+   height: 20px;
+    /* border: 1px solid #fff; */
+    font-size: 12px;
+    color: #fff;
+    margin-left: 25px;
+
+}
+.footer_left li a:hover {
+    border-bottom: 1px solid #fff;
+}
+.footer_right ul li {
+    float: right;
+    margin-right: 250px;
+}
+/* footer部分-end */
