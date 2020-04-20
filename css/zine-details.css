@@ -1,0 +1,30 @@
+/* main_info部分-start */
+.info_title {
+    float: left;
+}
+.info_title h5 {
+    margin-top: 40px;
+    font-size: 14px;
+    color: #999999;
+    font-weight: normal;
+}
+.info_title h3 {
+    margin-top: 10px;
+    font-size: 24px;
+    color: #3a3a3a;
+    /* font-weight: normal; */
+}
+.info {
+    float: right;
+    width: 515px;
+    margin-top: 75px;
+    margin-right: 90px;
+    font-size: 14px;
+    color: #4b5256;
+}
+.info_img img {
+    width: 500px;
+    height: 278px;
+    margin-top: 40px;
+}
+/* main_info部分-end */
