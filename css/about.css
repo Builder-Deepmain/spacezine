@@ -1,0 +1,32 @@
+/* header部分的导航栏设置当前页 */
+.nowpage {
+    border-bottom: 2px solid #8b939b;
+}
+/* main部分-start */
+.main .fl h5 {
+    margin-top: 70px;
+    font-size: 32px;
+    color: #000;
+}
+.main .fr .info_img {
+    width: 860px;
+    height: 480px;
+    padding: 20px;
+    margin-bottom: 125px;
+    box-shadow: 0 2px 5px 0 rgba(0,0,0,0.2);
+}
+.main .fr .info_img img {
+    width: 860px;
+    height: 390px;
+}
+.main .fr .info_img h5 {
+    margin-top: 20px;
+    font-size: 25px;
+    color: #000;
+}
+.main .fr .info_img p {
+    font-size: 14px;
+    color: #666;
+    margin-top: 7px;
+}
+/* main部分-end */

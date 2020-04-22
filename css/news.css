@@ -1,0 +1,36 @@
+/* header部分的导航栏设置当前页 */
+.nowpage {
+    border-bottom: 2px solid #8b939b;
+}
+/* main部分-start */
+.main h6 {
+    margin-top: 30px;
+    font-size: 60px;
+    color: #000;
+    font-weight: normal;
+}
+.main .info_main {
+    width: 550px;
+    margin-top: 50px;
+    padding: 30px;
+    box-shadow: 0 2px 5px 0 rgba(0,0,0,0.2);
+}
+.info_main li img {
+    width: 550px;
+    height: 250px;
+}
+.info_main li .time {
+    margin-top: 10px;
+    color: #666;
+}
+.info_main li h5 {
+    font-size: 25px;
+    color: #000;
+}
+.info_main li .content {
+    height: 100px;
+    margin: 20px 0;
+    font-size: 14px;
+    border-bottom: 1px solid #ccc;
+}
+/* main部分-end */

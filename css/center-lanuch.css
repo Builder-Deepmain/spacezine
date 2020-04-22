@@ -1,0 +1,126 @@
+/* header部分的导航栏设置当前页 */
+.nowpage {
+    border-bottom: 2px solid #fff;
+}
+/* info_img部分-start */
+.info_img {
+    height: 553px;
+    width: 100%;
+    background: url(../upload/Dragon_Carousel_0001_8.jpg) no-repeat;
+    background-position: center -570px;
+    /* background-size: 100% 553px; */
+}
+/* info_img部分-end */
+/* info_img部分-start */
+.info_main {
+    height: 870px;
+    position: relative;
+    background-color: #000;
+    border: 1px solid transparent;
+}
+.info_main h2 {
+    margin-top: 40PX;
+    font-size: 60PX;
+    font-weight: 500;
+    color: #fff;
+}
+.info_main p {
+    display: block;
+    width: 310px;
+    margin-top: 40px;
+    color: #fff;
+    font-size: 14px;
+}
+.info_main i {
+    position: absolute;
+    top: 170px;
+    left: 700px;
+    display: block;
+    width: 310px;
+    color: #fff;
+    font-size: 14px;
+}
+.info_main em {
+    position: absolute;
+    top: 40px;
+    left: 1000px;
+    display: block;
+    width: 520px;
+    height: 360px;
+    background: url(../upload/kennidi.png) no-repeat;
+    background-size: 520px 360px;
+    z-index: 999;
+}
+.little_img_title {
+    position: absolute;
+    top: 70px;
+    left: 1030px;
+    display: block;
+    width: 200px;
+    height: 40px;
+    padding-left: 20px;
+    background-color: #21272b;
+    color: #fff;
+    text-align: center;
+    line-height: 40px;
+
+}
+.first {
+    margin-top: 120px;
+    
+}
+.first h4 {
+    font-size: 30px;
+    color: #fff;
+}
+.first p {
+    margin-top: 20px;
+    font-size: 14px;
+    color: #fff;
+}
+.two {
+    margin-top: 50px;
+    
+}
+.two h4 {
+    font-size: 30px;
+    color: #fff;
+}
+.two p {
+    margin-top: 20px;
+    font-size: 14px;
+    color: #fff;
+}
+/* info_img部分-end */
+/* recommend推荐部分-start */
+.recommend h3 {
+    margin: 70px 0 30px 10px;
+    font-size: 25px;
+    color: #3a3a3a;
+}
+.recommend {
+    padding-left: 180px;
+}
+.recommend li:hover {
+    box-shadow: 0 2px 5px 0 rgba(0,0,0,0.5);
+}
+.recommend ul li {
+    float: left;
+    width: 256px;
+    height: 258px;
+    padding: 24px;
+    margin: 0 15px 24px;
+    box-shadow: 0 2px 5px 0 rgba(0,0,0,0.2);
+    transition: all 0.3s;
+}
+.recommend li h2 {
+    margin-top: 20px;
+    font-size: 18px;
+    color: #3a3a3a;
+}
+.recommend li p {
+    margin-top: 30px;
+    font-size: 12px;
+    color: #3569a4;
+}
+/* recommend推荐部分-end */

@@ -1,0 +1,30 @@
+/* header部分的导航栏设置当前页 */
+.nowpage {
+    border-bottom: 2px solid #8b939b;
+}
+/* main部分-start */
+.main h6 {
+    margin-top: 30px;
+    font-size: 60px;
+    color: #000;
+    font-weight: normal;
+}
+.main table {
+    width: 800px;
+    margin-top: 30px;
+    /* border: 1; */
+    
+}
+.main table th {
+    border-bottom: 2px solid #ccc;
+    padding: 20px 0;
+    font-size: 12px;
+    color: #4b5256;
+    text-align: left;
+}
+.main table td {
+    border-bottom: 1px solid #ccc;
+    color: #4b5256;
+    padding: 20px 0;
+}
+/* main部分-end */
