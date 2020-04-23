@@ -1,9 +1,9 @@
 /* info_img部分-start */
 .info_img {
-    height: 720px;
+    height: 800px;
     width: 100%;
     background: url(../upload/starlink_mission_06.png) no-repeat;
-    background-size: 100% 720px;
+    background-size: 100% 800px;
 }
 /* info_img部分-end */
 /* info_img_title部分-start */
