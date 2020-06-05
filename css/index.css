@@ -4,6 +4,7 @@
     width: 100%;
     background: url(../upload/starlink_mission_06.png) no-repeat;
     background-size: 100% 800px;
+    min-width: 1630px;
 }
 /* info_img部分-end */
 /* info_img_title部分-start */
@@ -16,6 +17,7 @@
     font-weight: 700;
     color: #fff;
     line-height: 100px;
+    min-width: 1580px;
 }
 /* info_img_title部分-end */
 /* info_font部分-start */
@@ -27,6 +29,7 @@
     font-weight: 700;
     line-height: 135px;
     text-align: center;
+    min-width: 1630px;
 }
 .info_font {
     height: 60px;
