@@ -39,6 +39,12 @@
 .info_recommend {
     padding-left: 180px;
 }
+/* 在1650px的显示屏下， */
+@media screen and (max-width: 1650px) {
+    .info_recommend {
+        margin-left: 145px;
+    }
+}
 .info_recommend li:hover {
     box-shadow: 0 2px 5px 0 rgba(0,0,0,0.5);
 }
