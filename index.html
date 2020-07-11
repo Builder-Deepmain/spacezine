@@ -9,6 +9,12 @@
 		<link rel="stylesheet" href="./css/base.css">
 		<link rel="stylesheet" href="./css/common.css">
 		<link rel="stylesheet" href="./css/index.css">
+		<!-- Mobile端跳转 -->
+		<script>
+			if ((navigator.userAgent.match(/(phone|pad|pod|iPhone|iPod|ios|iPad|Android|Mobile|BlackBerry|IEMobile|MQQBrowser|JUC|Fennec|wOSBrowser|BrowserNG|WebOS|Symbian|Windows Phone)/i))) {
+				window.location.href ="./mobile/m_index.html";//手机
+			}
+		</script>
 	</head>
 	<body>
 		<!-- header部分-start -->
@@ -126,10 +132,5 @@
 			</div>
 		</div>
 		<!-- footer部分-end -->
-		<script>
-			if ((navigator.userAgent.match(/(phone|pad|pod|iPhone|iPod|ios|iPad|Android|Mobile|BlackBerry|IEMobile|MQQBrowser|JUC|Fennec|wOSBrowser|BrowserNG|WebOS|Symbian|Windows Phone)/i))) {
-				window.location.href ="./mobile/m_index.html";//手机
-			}
-		</script>
 	</body>
 </html>
