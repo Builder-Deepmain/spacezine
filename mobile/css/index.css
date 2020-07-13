@@ -1,0 +1,151 @@
+body {
+	width: 100%;
+	min-width: 320px;
+	max-width: 640px;
+	margin: 0 auto;
+	font-size: 14px;
+	font-family: -apple-system, helvetica, sans-serif;
+	line-height: 1.5;
+    color: #666;
+    background-color: #F9F9F9;
+	/*background-color: #ccc;*/
+}
+/** {
+	margin: 0;
+	padding: 0;
+}*/
+ul {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+/*清除点击高亮*/
+* {
+	-webkit-tap-highlight-color: transparent;
+}
+/*清除ios中input标签的默认样式*/
+input {
+	-webkit-appearance: none;
+}
+/*禁用长按弹出快捷菜单*/
+img,
+a {
+	-webkit-touch-callout: none;
+}
+a {
+	text-decoration: none;
+	color: #000;
+}
+.fl {
+	float: left;
+}
+.fr {
+	float: right;
+}
+/*header-start*/
+.header {
+	height: 65px;
+	width: 99.5%;
+	background-color: #0b0b0b;
+    border: 1px solid  transparent;
+    margin-bottom: 20px;
+}
+.header .content {
+	position: relative;
+	height: 30px;
+	/* background-color: purple; */
+	margin-top: 17px;
+}
+.content .one {
+	position: absolute;
+	left: 18px;
+	height: 30px;
+	width: 181px;
+	background: url(../img/logo.png) no-repeat;
+}
+/* header-end */
+/* recommend-start */
+.recommend {
+    width: 96%;
+    height: 475px;
+    /* background-color: pink; */
+    margin: 0 auto;
+    box-shadow: 0px 0px 2px 1px rgba(0,0,0,0.1);
+    background-color: white;
+    margin-bottom: 20px;
+}
+.recommend_title {
+    height: 57px;
+    /* border-bottom: #9BC0E3; */
+    border-bottom: 1px solid rgba(0,0,0,0.1);
+    padding: 0 20px;
+}
+.recommend_title h2 {
+    font-size: 16px;
+    line-height: 29px;
+    /* padding: 0 20px; */
+}
+.recommend_title p {
+    font-size: 12px;
+    line-height: 34px;
+    color:  rgba(0,0,0,0.45);
+}
+.recommend_bd .info {
+    float: left;
+    width: 48%;
+    height: 191px;
+    /* background-color: #cacaca; */
+    margin-right: 5px;
+    margin-top: 12px;
+}
+.recommend_bd {
+    padding-left: 12px;
+    
+}
+.recommend_bd .info .info_img {
+	width: 100%;
+	height: 115px;
+	background-color: pink;
+}
+.recommend_bd .info h5 {
+	padding: 0 5px 0 5px;
+	margin-top: 5px;
+	margin-bottom: 0;
+}
+.recommend_bd .info p {
+	padding: 0 5px;
+	font-size: 12px;
+	color: #b9b9b9;
+}
+/* recommend-end */
+/* more-start */
+.more {
+	width: 96%;
+	height: 634px;
+	/* background-color: pink; */
+	margin: 0 auto;
+	box-shadow: 0px 0px 2px 1px rgba(0,0,0,0.1);
+	margin-bottom: 10px;
+}
+.more .more_img {
+	width: 100%;
+}
+.more h3 {
+	font-size: 14px;
+	padding: 0 10px;
+	line-height: 5px;
+}
+/* more-end */
+/* about-start */
+.about {
+	width: 100%;
+	height: 80px;
+	/* background-color: #f9f9f9; */
+	font-size: 12px;
+	line-height: 80px;
+	text-align: center;
+}
+.about a {
+	color: #999999;
+}
+/* about-end */
