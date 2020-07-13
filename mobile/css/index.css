@@ -105,7 +105,7 @@ a {
 .recommend_bd .info .info_img {
 	width: 100%;
 	height: 115px;
-	background-color: pink;
+	/* background-color: pink; */
 }
 .recommend_bd .info h5 {
 	padding: 0 5px 0 5px;
