@@ -60,11 +60,12 @@ h2 {
 	margin-top: 17px;
 }
 .content .one {
-	position: absolute;
-	left: 18px;
+	/* position: absolute;
+	left: 18px; */
 	height: 30px;
 	width: 181px;
 	background: url(../img/logo.png) no-repeat;
+	margin: 0 auto;
 }
 /* header-end */
 /* recommend-start */
